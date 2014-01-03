@@ -1,4 +1,5 @@
 ---
+# Red Hat specific tasks
 
 - name: Install npm and node via EPEL yum repo
   yum: name=npm enablerepo=epel state=present

@@ -4,10 +4,10 @@ nodejs
 Installs node and npm on RHEL 6/CentOS 6/Ubuntu 12.04 via standard packaging mechanisms - 
 Chris Lea's PPA on Debian and the EPEL repository on RHEL/CentOS.
 
-Can also configure a set of global packages.
+Can also install a set of global npm packages.
 
 Adheres to semantic versioning (http://semver.org/) - you are advised to install / depend
-on a major version number.
+on a major version number to avoid breaking changes.
 
 Credits: I initially developed this in isolation, but later took some inspiration from 
 https://github.com/bcen/ansible-nodejs and bennojoy/openldap_server.

@@ -1,5 +1,5 @@
 ---
-# tasks file for nodejs
+# Main tasks file for node.js role
 
 - name: Carry out {{ ansible_os_family }} specific tasks
   include: "{{ ansible_os_family }}.yml"
