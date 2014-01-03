@@ -1,0 +1,7 @@
+---
+
+- name: Add apt repository 
+  apt_repository: repo='ppa:chris-lea/node.js' state=present update_cache=yes
+
+- name: Install node and npm via apt
+  apt: pkg=nodejs state=present

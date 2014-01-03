@@ -1,0 +1,4 @@
+---
+# defaults file for nodejs
+
+nodejs_global_packages: [ ]  # Packages to install globally

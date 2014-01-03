@@ -1,0 +1,9 @@
+---
+# tasks file for nodejs
+
+- name: Carry out {{ ansible_os_family }} specific tasks
+  include: "{{ ansible_os_family }}.yml"
+
+- name: Install global packages
+  npm: global=yes name={{ item }} state=present
+  with_items: nodejs_global_packages
