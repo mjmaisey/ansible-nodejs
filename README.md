@@ -1,4 +1,4 @@
 ansible-nodejs
 ==============
 
-Ansible playbook for install node.js on RHEL/CentOS/Ubuntu
+Ansible playbook for installing node.js on RHEL/CentOS/Ubuntu
